@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Universal To Do List",
+    "version": "0.1.0",
+    "description": "Display a checkable to do list",
+    "icons": {
+        "16": "/images/check-box-16.png",
+        "48": "/images/check-box-48.png",
+        "128": "/images/check-box-128.png"
+    }, 
+    "permissions": ["storage", "tabs"],
+    "action": {
+      "default_title": "To Do List",
+      "default_popup": "todo.html"
+    }
+ }

@@ -1,0 +1,35 @@
+<html>    
+    <head>
+        <meta charset="utf-8">
+        <title>To Do List</title>
+        <script defer src="contentScript.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 class="title heading">To Do:</h1>
+        <button class="btn remove heading" id="remove-tasks" aria-label="remove tasks">Remove Completed!</button>
+        <div class="to-do-list">
+            <div data-tasks>
+            </div>
+
+            <form action="" id="submit-new-task">
+                <input 
+                    type="text" 
+                    class="new task" 
+                    data-new-task-input 
+                    placeholder="Add a New Task!" 
+                    aria-label="Add a New Task"
+                />
+                <button class="btn create" aria-label="create new task">+</button>
+            </form>
+        </div>
+        <template id="task-template">
+            <div class="task">
+                <input type="checkbox"/>
+                <label>
+                    <span class="task-checkbox"></span>
+                </label>
+            </div>
+        </template>
+    </body> 
+</html>

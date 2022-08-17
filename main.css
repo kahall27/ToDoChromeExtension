@@ -1,0 +1,53 @@
+body {
+    background-color: lightyellow;
+    width: 300px;
+    color: navy;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.heading {
+    display: inline;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.remove {
+    float: right;
+    font-size: 20px;
+    color: navy;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid navy;
+}
+
+.to-do-list {
+    padding-top: 10px;
+}
+
+form {
+    vertical-align: bottom;
+}
+
+button {
+    background-color: lightyellow;
+    border: 1px solid lightyellow;
+}
+
+button:hover {
+    background-color: navy;
+    color: lightyellow;
+    border-radius: 10px;
+}
+
+.task {
+    padding: 5px;
+}
