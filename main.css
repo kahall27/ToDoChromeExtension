@@ -1,8 +1,13 @@
+html {
+    max-height: 25vh;
+}
+
 body {
     background-color: lightyellow;
     width: 300px;
     color: navy;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-right: 5px;
 }
 
 .heading {
@@ -31,6 +36,7 @@ input {
 
 .to-do-list {
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 form {
